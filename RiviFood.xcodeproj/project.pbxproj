@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34FD1F6723CC6BC700B52760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6623CC6BC700B52760 /* AppDelegate.swift */; };
+		34FD1F6923CC6BC700B52760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */; };
+		34FD1F6B23CC6BC700B52760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6A23CC6BC700B52760 /* ViewController.swift */; };
+		34FD1F6E23CC6BC700B52760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD1F6C23CC6BC700B52760 /* Main.storyboard */; };
+		34FD1F7123CC6BC700B52760 /* RiviFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6F23CC6BC700B52760 /* RiviFood.xcdatamodeld */; };
+		34FD1F7323CC6BC900B52760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FD1F7223CC6BC900B52760 /* Assets.xcassets */; };
+		34FD1F7623CC6BC900B52760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD1F7423CC6BC900B52760 /* LaunchScreen.storyboard */; };
+		34FD1F8123CC6BC900B52760 /* RiviFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F8023CC6BC900B52760 /* RiviFoodTests.swift */; };
+		34FD1F8C23CC6BC900B52760 /* RiviFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F8B23CC6BC900B52760 /* RiviFoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FD1F7D23CC6BC900B52760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FD1F5B23CC6BC700B52760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FD1F6223CC6BC700B52760;
+			remoteInfo = RiviFood;
+		};
+		34FD1F8823CC6BC900B52760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FD1F5B23CC6BC700B52760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FD1F6223CC6BC700B52760;
+			remoteInfo = RiviFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34FD1F6323CC6BC700B52760 /* RiviFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiviFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD1F6623CC6BC700B52760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		34FD1F6A23CC6BC700B52760 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34FD1F6D23CC6BC700B52760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34FD1F7023CC6BC700B52760 /* RiviFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RiviFood.xcdatamodel; sourceTree = "<group>"; };
+		34FD1F7223CC6BC900B52760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34FD1F7523CC6BC900B52760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34FD1F7723CC6BC900B52760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD1F7C23CC6BC900B52760 /* RiviFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiviFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD1F8023CC6BC900B52760 /* RiviFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiviFoodTests.swift; sourceTree = "<group>"; };
+		34FD1F8223CC6BC900B52760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD1F8723CC6BC900B52760 /* RiviFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiviFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34FD1F8B23CC6BC900B52760 /* RiviFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiviFoodUITests.swift; sourceTree = "<group>"; };
+		34FD1F8D23CC6BC900B52760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34FD1F6023CC6BC700B52760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F7923CC6BC900B52760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F8423CC6BC900B52760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34FD1F5A23CC6BC700B52760 = {
+			isa = PBXGroup;
+			children = (
+				34FD1F6523CC6BC700B52760 /* RiviFood */,
+				34FD1F7F23CC6BC900B52760 /* RiviFoodTests */,
+				34FD1F8A23CC6BC900B52760 /* RiviFoodUITests */,
+				34FD1F6423CC6BC700B52760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34FD1F6423CC6BC700B52760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FD1F6323CC6BC700B52760 /* RiviFood.app */,
+				34FD1F7C23CC6BC900B52760 /* RiviFoodTests.xctest */,
+				34FD1F8723CC6BC900B52760 /* RiviFoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34FD1F6523CC6BC700B52760 /* RiviFood */ = {
+			isa = PBXGroup;
+			children = (
+				34FD1F6623CC6BC700B52760 /* AppDelegate.swift */,
+				34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */,
+				34FD1F6A23CC6BC700B52760 /* ViewController.swift */,
+				34FD1F6C23CC6BC700B52760 /* Main.storyboard */,
+				34FD1F7223CC6BC900B52760 /* Assets.xcassets */,
+				34FD1F7423CC6BC900B52760 /* LaunchScreen.storyboard */,
+				34FD1F7723CC6BC900B52760 /* Info.plist */,
+				34FD1F6F23CC6BC700B52760 /* RiviFood.xcdatamodeld */,
+			);
+			path = RiviFood;
+			sourceTree = "<group>";
+		};
+		34FD1F7F23CC6BC900B52760 /* RiviFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				34FD1F8023CC6BC900B52760 /* RiviFoodTests.swift */,
+				34FD1F8223CC6BC900B52760 /* Info.plist */,
+			);
+			path = RiviFoodTests;
+			sourceTree = "<group>";
+		};
+		34FD1F8A23CC6BC900B52760 /* RiviFoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34FD1F8B23CC6BC900B52760 /* RiviFoodUITests.swift */,
+				34FD1F8D23CC6BC900B52760 /* Info.plist */,
+			);
+			path = RiviFoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34FD1F6223CC6BC700B52760 /* RiviFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD1F9023CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFood" */;
+			buildPhases = (
+				34FD1F5F23CC6BC700B52760 /* Sources */,
+				34FD1F6023CC6BC700B52760 /* Frameworks */,
+				34FD1F6123CC6BC700B52760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiviFood;
+			productName = RiviFood;
+			productReference = 34FD1F6323CC6BC700B52760 /* RiviFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34FD1F7B23CC6BC900B52760 /* RiviFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD1F9323CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodTests" */;
+			buildPhases = (
+				34FD1F7823CC6BC900B52760 /* Sources */,
+				34FD1F7923CC6BC900B52760 /* Frameworks */,
+				34FD1F7A23CC6BC900B52760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FD1F7E23CC6BC900B52760 /* PBXTargetDependency */,
+			);
+			name = RiviFoodTests;
+			productName = RiviFoodTests;
+			productReference = 34FD1F7C23CC6BC900B52760 /* RiviFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34FD1F8623CC6BC900B52760 /* RiviFoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34FD1F9623CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodUITests" */;
+			buildPhases = (
+				34FD1F8323CC6BC900B52760 /* Sources */,
+				34FD1F8423CC6BC900B52760 /* Frameworks */,
+				34FD1F8523CC6BC900B52760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34FD1F8923CC6BC900B52760 /* PBXTargetDependency */,
+			);
+			name = RiviFoodUITests;
+			productName = RiviFoodUITests;
+			productReference = 34FD1F8723CC6BC900B52760 /* RiviFoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34FD1F5B23CC6BC700B52760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Mridula;
+				TargetAttributes = {
+					34FD1F6223CC6BC700B52760 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					34FD1F7B23CC6BC900B52760 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 34FD1F6223CC6BC700B52760;
+					};
+					34FD1F8623CC6BC900B52760 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 34FD1F6223CC6BC700B52760;
+					};
+				};
+			};
+			buildConfigurationList = 34FD1F5E23CC6BC700B52760 /* Build configuration list for PBXProject "RiviFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34FD1F5A23CC6BC700B52760;
+			productRefGroup = 34FD1F6423CC6BC700B52760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34FD1F6223CC6BC700B52760 /* RiviFood */,
+				34FD1F7B23CC6BC900B52760 /* RiviFoodTests */,
+				34FD1F8623CC6BC900B52760 /* RiviFoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34FD1F6123CC6BC700B52760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD1F7623CC6BC900B52760 /* LaunchScreen.storyboard in Resources */,
+				34FD1F7323CC6BC900B52760 /* Assets.xcassets in Resources */,
+				34FD1F6E23CC6BC700B52760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F7A23CC6BC900B52760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F8523CC6BC900B52760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FD1F5F23CC6BC700B52760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD1F6B23CC6BC700B52760 /* ViewController.swift in Sources */,
+				34FD1F6723CC6BC700B52760 /* AppDelegate.swift in Sources */,
+				34FD1F6923CC6BC700B52760 /* SceneDelegate.swift in Sources */,
+				34FD1F7123CC6BC700B52760 /* RiviFood.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F7823CC6BC900B52760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD1F8123CC6BC900B52760 /* RiviFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FD1F8323CC6BC900B52760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD1F8C23CC6BC900B52760 /* RiviFoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34FD1F7E23CC6BC900B52760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FD1F6223CC6BC700B52760 /* RiviFood */;
+			targetProxy = 34FD1F7D23CC6BC900B52760 /* PBXContainerItemProxy */;
+		};
+		34FD1F8923CC6BC900B52760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34FD1F6223CC6BC700B52760 /* RiviFood */;
+			targetProxy = 34FD1F8823CC6BC900B52760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34FD1F6C23CC6BC700B52760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FD1F6D23CC6BC700B52760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34FD1F7423CC6BC900B52760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34FD1F7523CC6BC900B52760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34FD1F8E23CC6BC900B52760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34FD1F8F23CC6BC900B52760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34FD1F9123CC6BC900B52760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34FD1F9223CC6BC900B52760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34FD1F9423CC6BC900B52760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiviFood.app/RiviFood";
+			};
+			name = Debug;
+		};
+		34FD1F9523CC6BC900B52760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RiviFood.app/RiviFood";
+			};
+			name = Release;
+		};
+		34FD1F9723CC6BC900B52760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiviFood;
+			};
+			name = Debug;
+		};
+		34FD1F9823CC6BC900B52760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RiviFoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mridula.RiviFoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RiviFood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34FD1F5E23CC6BC700B52760 /* Build configuration list for PBXProject "RiviFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD1F8E23CC6BC900B52760 /* Debug */,
+				34FD1F8F23CC6BC900B52760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FD1F9023CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD1F9123CC6BC900B52760 /* Debug */,
+				34FD1F9223CC6BC900B52760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FD1F9323CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD1F9423CC6BC900B52760 /* Debug */,
+				34FD1F9523CC6BC900B52760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34FD1F9623CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34FD1F9723CC6BC900B52760 /* Debug */,
+				34FD1F9823CC6BC900B52760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34FD1F6F23CC6BC700B52760 /* RiviFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34FD1F7023CC6BC700B52760 /* RiviFood.xcdatamodel */,
+			);
+			currentVersion = 34FD1F7023CC6BC700B52760 /* RiviFood.xcdatamodel */;
+			path = RiviFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34FD1F5B23CC6BC700B52760 /* Project object */;
+}
