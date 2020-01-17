@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		312BFD4B9D273AA8109CAB95 /* Pods_RiviFood_RiviFoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF645C5B54478EFFF01B8E4 /* Pods_RiviFood_RiviFoodUITests.framework */; };
+		3404C62C23CEE386003ED443 /* FoodApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3404C62B23CEE386003ED443 /* FoodApiManager.swift */; };
+		3404C62E23CF4B51003ED443 /* FoodDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3404C62D23CF4B51003ED443 /* FoodDetailTableViewCell.swift */; };
 		34FD1F6723CC6BC700B52760 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6623CC6BC700B52760 /* AppDelegate.swift */; };
 		34FD1F6923CC6BC700B52760 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */; };
 		34FD1F6B23CC6BC700B52760 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F6A23CC6BC700B52760 /* ViewController.swift */; };
@@ -16,6 +19,11 @@
 		34FD1F7623CC6BC900B52760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD1F7423CC6BC900B52760 /* LaunchScreen.storyboard */; };
 		34FD1F8123CC6BC900B52760 /* RiviFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F8023CC6BC900B52760 /* RiviFoodTests.swift */; };
 		34FD1F8C23CC6BC900B52760 /* RiviFoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F8B23CC6BC900B52760 /* RiviFoodUITests.swift */; };
+		34FD1F9A23CC7C1A00B52760 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F9923CC7C1A00B52760 /* DataModel.swift */; };
+		34FD1FA023CC9F9200B52760 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1F9F23CC9F9200B52760 /* Constants.swift */; };
+		34FD1FA423CCA6ED00B52760 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FD1FA323CCA6ED00B52760 /* ApiManager.swift */; };
+		4EFD17F3A6D7DD9454581B75 /* Pods_RiviFoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922ECDB0DD6EB02008CDB6FB /* Pods_RiviFoodTests.framework */; };
+		F72F8457A077D60FF4EC771E /* Pods_RiviFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB30A53CDA6434ED0B22C9C /* Pods_RiviFood.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3404C62B23CEE386003ED443 /* FoodApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApiManager.swift; sourceTree = "<group>"; };
+		3404C62D23CF4B51003ED443 /* FoodDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailTableViewCell.swift; sourceTree = "<group>"; };
 		34FD1F6323CC6BC700B52760 /* RiviFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiviFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FD1F6623CC6BC700B52760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		34FD1F8723CC6BC900B52760 /* RiviFoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiviFoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FD1F8B23CC6BC900B52760 /* RiviFoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiviFoodUITests.swift; sourceTree = "<group>"; };
 		34FD1F8D23CC6BC900B52760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FD1F9923CC7C1A00B52760 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		34FD1F9F23CC9F9200B52760 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34FD1FA323CCA6ED00B52760 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		6DF645C5B54478EFFF01B8E4 /* Pods_RiviFood_RiviFoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiviFood_RiviFoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		922ECDB0DD6EB02008CDB6FB /* Pods_RiviFoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiviFoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		971A6E4162A862C612E3C576 /* Pods-RiviFood-RiviFoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFood-RiviFoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-RiviFood-RiviFoodUITests/Pods-RiviFood-RiviFoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB30A53CDA6434ED0B22C9C /* Pods_RiviFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RiviFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6850BE45CE17BB962D534C0 /* Pods-RiviFood-RiviFoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFood-RiviFoodUITests.release.xcconfig"; path = "Target Support Files/Pods-RiviFood-RiviFoodUITests/Pods-RiviFood-RiviFoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AC2E228625A561CEDCB14C60 /* Pods-RiviFoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFoodTests.debug.xcconfig"; path = "Target Support Files/Pods-RiviFoodTests/Pods-RiviFoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD363058C86C530120592621 /* Pods-RiviFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFood.release.xcconfig"; path = "Target Support Files/Pods-RiviFood/Pods-RiviFood.release.xcconfig"; sourceTree = "<group>"; };
+		CAD155F87ACCDD93BCA0D35D /* Pods-RiviFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFood.debug.xcconfig"; path = "Target Support Files/Pods-RiviFood/Pods-RiviFood.debug.xcconfig"; sourceTree = "<group>"; };
+		CB555D9FC47BAAFB5A623121 /* Pods-RiviFoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RiviFoodTests.release.xcconfig"; path = "Target Support Files/Pods-RiviFoodTests/Pods-RiviFoodTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F72F8457A077D60FF4EC771E /* Pods_RiviFood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFD17F3A6D7DD9454581B75 /* Pods_RiviFoodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +96,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				312BFD4B9D273AA8109CAB95 /* Pods_RiviFood_RiviFoodUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3498B33223D1FFA000C51F3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3404C62B23CEE386003ED443 /* FoodApiManager.swift */,
+				34FD1FA323CCA6ED00B52760 /* ApiManager.swift */,
+				34FD1F9F23CC9F9200B52760 /* Constants.swift */,
+				34FD1F9923CC7C1A00B52760 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3498B33323D1FFAB00C51F3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34FD1F6C23CC6BC700B52760 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3498B33423D1FFB300C51F3C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3404C62D23CF4B51003ED443 /* FoodDetailTableViewCell.swift */,
+				34FD1F6A23CC6BC700B52760 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		34FD1F5A23CC6BC700B52760 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +138,8 @@
 				34FD1F7F23CC6BC900B52760 /* RiviFoodTests */,
 				34FD1F8A23CC6BC900B52760 /* RiviFoodUITests */,
 				34FD1F6423CC6BC700B52760 /* Products */,
+				34FD1F9B23CC7E4A00B52760 /* Frameworks */,
+				EB991700883203DA97E12310 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +156,11 @@
 		34FD1F6523CC6BC700B52760 /* RiviFood */ = {
 			isa = PBXGroup;
 			children = (
+				3498B33423D1FFB300C51F3C /* Controller */,
+				3498B33323D1FFAB00C51F3C /* View */,
+				3498B33223D1FFA000C51F3C /* Model */,
 				34FD1F6623CC6BC700B52760 /* AppDelegate.swift */,
 				34FD1F6823CC6BC700B52760 /* SceneDelegate.swift */,
-				34FD1F6A23CC6BC700B52760 /* ViewController.swift */,
-				34FD1F6C23CC6BC700B52760 /* Main.storyboard */,
 				34FD1F7223CC6BC900B52760 /* Assets.xcassets */,
 				34FD1F7423CC6BC900B52760 /* LaunchScreen.storyboard */,
 				34FD1F7723CC6BC900B52760 /* Info.plist */,
@@ -131,6 +187,29 @@
 			path = RiviFoodUITests;
 			sourceTree = "<group>";
 		};
+		34FD1F9B23CC7E4A00B52760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DB30A53CDA6434ED0B22C9C /* Pods_RiviFood.framework */,
+				6DF645C5B54478EFFF01B8E4 /* Pods_RiviFood_RiviFoodUITests.framework */,
+				922ECDB0DD6EB02008CDB6FB /* Pods_RiviFoodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB991700883203DA97E12310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAD155F87ACCDD93BCA0D35D /* Pods-RiviFood.debug.xcconfig */,
+				BD363058C86C530120592621 /* Pods-RiviFood.release.xcconfig */,
+				971A6E4162A862C612E3C576 /* Pods-RiviFood-RiviFoodUITests.debug.xcconfig */,
+				A6850BE45CE17BB962D534C0 /* Pods-RiviFood-RiviFoodUITests.release.xcconfig */,
+				AC2E228625A561CEDCB14C60 /* Pods-RiviFoodTests.debug.xcconfig */,
+				CB555D9FC47BAAFB5A623121 /* Pods-RiviFoodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34FD1F9023CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFood" */;
 			buildPhases = (
+				8F257F46FB415CA705D5791B /* [CP] Check Pods Manifest.lock */,
 				34FD1F5F23CC6BC700B52760 /* Sources */,
 				34FD1F6023CC6BC700B52760 /* Frameworks */,
 				34FD1F6123CC6BC700B52760 /* Resources */,
+				EF9B65F2DF7DDE6E255F046E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34FD1F9323CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodTests" */;
 			buildPhases = (
+				1688A05C6C7DBC68F19DB523 /* [CP] Check Pods Manifest.lock */,
 				34FD1F7823CC6BC900B52760 /* Sources */,
 				34FD1F7923CC6BC900B52760 /* Frameworks */,
 				34FD1F7A23CC6BC900B52760 /* Resources */,
@@ -173,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34FD1F9623CC6BC900B52760 /* Build configuration list for PBXNativeTarget "RiviFoodUITests" */;
 			buildPhases = (
+				8258F4B87A9CDD78FD3AFB6E /* [CP] Check Pods Manifest.lock */,
 				34FD1F8323CC6BC900B52760 /* Sources */,
 				34FD1F8423CC6BC900B52760 /* Frameworks */,
 				34FD1F8523CC6BC900B52760 /* Resources */,
+				85EC307407B3E30DE215F177 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,15 +341,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1688A05C6C7DBC68F19DB523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiviFoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8258F4B87A9CDD78FD3AFB6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiviFood-RiviFoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EC307407B3E30DE215F177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiviFood-RiviFoodUITests/Pods-RiviFood-RiviFoodUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiviFood-RiviFoodUITests/Pods-RiviFood-RiviFoodUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RiviFood-RiviFoodUITests/Pods-RiviFood-RiviFoodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F257F46FB415CA705D5791B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RiviFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF9B65F2DF7DDE6E255F046E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiviFood/Pods-RiviFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RiviFood/Pods-RiviFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RiviFood/Pods-RiviFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		34FD1F5F23CC6BC700B52760 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FD1F9A23CC7C1A00B52760 /* DataModel.swift in Sources */,
 				34FD1F6B23CC6BC700B52760 /* ViewController.swift in Sources */,
 				34FD1F6723CC6BC700B52760 /* AppDelegate.swift in Sources */,
+				3404C62E23CF4B51003ED443 /* FoodDetailTableViewCell.swift in Sources */,
+				34FD1FA423CCA6ED00B52760 /* ApiManager.swift in Sources */,
+				3404C62C23CEE386003ED443 /* FoodApiManager.swift in Sources */,
 				34FD1F6923CC6BC700B52760 /* SceneDelegate.swift in Sources */,
 				34FD1F7123CC6BC700B52760 /* RiviFood.xcdatamodeld in Sources */,
+				34FD1FA023CC9F9200B52760 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +628,7 @@
 		};
 		34FD1F9123CC6BC900B52760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD155F87ACCDD93BCA0D35D /* Pods-RiviFood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +646,7 @@
 		};
 		34FD1F9223CC6BC900B52760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD363058C86C530120592621 /* Pods-RiviFood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +664,7 @@
 		};
 		34FD1F9423CC6BC900B52760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2E228625A561CEDCB14C60 /* Pods-RiviFoodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +686,7 @@
 		};
 		34FD1F9523CC6BC900B52760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB555D9FC47BAAFB5A623121 /* Pods-RiviFoodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +708,7 @@
 		};
 		34FD1F9723CC6BC900B52760 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971A6E4162A862C612E3C576 /* Pods-RiviFood-RiviFoodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +728,7 @@
 		};
 		34FD1F9823CC6BC900B52760 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6850BE45CE17BB962D534C0 /* Pods-RiviFood-RiviFoodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
